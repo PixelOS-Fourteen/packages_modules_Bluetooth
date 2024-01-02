@@ -34,9 +34,6 @@ cc_defaults {
     shared_libs: [
         "libbase",
     ],
-    lto: {
-        never: true,
-    },
     target: {
         darwin: {
             enabled: false,
@@ -189,9 +186,6 @@ cc_defaults {
             ],
         },
     },
-    lto: {
-        never: true,
-    },
 }
 
 cc_defaults {
@@ -222,8 +216,5 @@ cc_defaults {
                 misc_undefined: ["bounds"],
             },
         },
-    },
-    lto: {
-        never: true,
     },
 }
